@@ -205,7 +205,3 @@ GitHub의 올바른 저장소와 브랜치(`main`)에 Push했는지 확인하고
 - **Privacy Classification**: 프로젝트의 `modules/privacy_detection.py` 구현에 따름
 - **Mosaic Processing**: 프로젝트의 `modules/privacy_filter.py` 구현에 따름
 - **Deployment**: GitHub, Streamlit Community Cloud
-
-## License
-
-라이선스는 프로젝트 정책에 맞게 별도로 지정하세요.
