@@ -1,0 +1,8 @@
+streamlit
+numpy
+opencv-python-headless
+Pillow
+insightface
+onnxruntime
+paddleocr
+paddlepaddle
