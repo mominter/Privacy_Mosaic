@@ -1,8 +1,8 @@
 streamlit
-numpy
-opencv-python-headless
-Pillow
-insightface
-onnxruntime
-paddleocr
-paddlepaddle
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+Pillow==10.4.0
+insightface==0.7.3
+onnxruntime==1.20.1
+paddlepaddle==3.2.0
+paddleocr==3.3.2
