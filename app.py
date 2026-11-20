@@ -44,7 +44,18 @@ def load_ocr_model():
 
     return PaddleOCR(
         lang="korean",
+
+        # 텍스트 줄 방향 인식은 유지
         use_textline_orientation=True,
+
+        # 문서 전처리 기능 비활성화
+        use_doc_orientation_classify=False,
+        use_doc_unwarping=False,
+
+        # CPU 추론 안정화
+        enable_mkldnn=False,
+        cpu_threads=2,
+
         device=device,
     )
 
